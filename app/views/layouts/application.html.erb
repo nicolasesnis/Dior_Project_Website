@@ -19,6 +19,6 @@
     <%= render 'shared/left-menu' %>
     <%= render 'shared/footer' %>
     <%= yield %>
-
+    <%= yield(:after_js) %>
   </body>
 </html>
