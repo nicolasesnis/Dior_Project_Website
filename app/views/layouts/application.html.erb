@@ -19,6 +19,32 @@
     <%= render 'shared/left-menu' %>
     <%= render 'shared/footer' %>
     <%= yield %>
-    <%= yield(:after_js) %>
   </body>
+
+  <script>
+    var navbar = document.getElementById('navbar');
+    var tabs = document.getElementById('tabs');
+
+
+    navbar.addEventListener("mouseover", (event) => {
+      if ($(document).scrollTop() < 50) {
+        tabs.classList.remove("tabs_hidden");
+        tabs.classList.add("tabs");
+      }
+    });
+    navbar.addEventListener("mouseout", (event) => {
+        tabs.classList.add("tabs_hidden");
+        tabs.classList.remove("tabs");
+    });
+
+
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > 50) {
+        $('nav').addClass('shrink');
+      } else {
+        $('nav').removeClass('shrink');
+      }
+    });
+
+  </script>
 </html>
