@@ -24,16 +24,17 @@
   <script>
     var navbar = document.getElementById('navbar');
     var tabs = document.getElementById('tabs');
+    var dropdown = document.getElementById('dropdown')
 
 
     navbar.addEventListener("mouseover", (event) => {
       if ($(document).scrollTop() < 50) {
-        tabs.classList.remove("tabs_hidden");
+        tabs.classList.remove("hidden");
         tabs.classList.add("tabs");
       }
     });
     navbar.addEventListener("mouseout", (event) => {
-        tabs.classList.add("tabs_hidden");
+        tabs.classList.add("hidden");
         tabs.classList.remove("tabs");
     });
 
@@ -41,8 +42,11 @@
     $(window).scroll(function() {
       if ($(document).scrollTop() > 50) {
         $('nav').addClass('shrink');
+        dropdown.classList.remove('hidden');
+
       } else {
         $('nav').removeClass('shrink');
+        dropdown.classList.add('hidden');
       }
     });
 
