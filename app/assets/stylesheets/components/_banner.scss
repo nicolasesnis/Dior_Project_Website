@@ -230,50 +230,115 @@ body{
 }
 
 .banner3{
+
   height:100vh;
-  background-image: url('https://img.aws.la-croix.com/2017/03/22/1200833797/usees-sevacuant-egouts_0_1398_920.jpg');
+  background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510786588/back1_ghgmno.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  .text-container{
+  text-align:center;
+  margin:auto;
+    h1{
+      padding-bottom:30%;
+      color:white;
+    }
+  }
 }
 
-.banner3-content{
-  margin-left: 80px;
-  width: 48%;
-  margin-top: 23px;
-}
 
 .banner4 {
   height: 100vh;
-  background-color: white; background-image: url('https://guide.alibaba.com/image/i1/18867031102589886/delicate-skull-410ml-bottle-creative-skull-skull-bottle-wine-brewed-wine-bottle-with-a-bottle-of-sparkling-wine/T1FCIgFkJXXXXXXXXX_!!0-item_pic.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative
+  position: relative;
+  padding-top:5%;
+  border: 21px solid rgb(196,59,79);
+  img{
+    padding-left:20%;
+  }
+  .text-container{
+    position: absolute;
+    right: 15%;
+    left: 50%;
+    text-align: right;
+    padding-top: 15%;
+    height:100%;
+    font-weight: bold;
+      p{
+        color: black;
+        font-size: 15px;
+      }
+      h2{
+        color: black;
+        font-size: 4vw;
+        line-height: 50%;
+      }
+      .btn-danger{
+        color: #fff;
+    background-color: rgb(196,59,79);
+    border-color: black;
+      }
+  }
 }
 
-.banner4-content{
-  position: absolute;
+.banner4-bis{
+  background-image:url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510783994/racee_qblqeh.jpg');
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 100vh;
+  .text-container{
+    padding-left: 3%;
+    padding-right: 50%;
+    margin: auto;
+    text-align: left;
 
-  right: 15%;
-  text-align: right;
-  padding-top: 5%;
-  height:100%;
-  font-weight: bold;
-    p{
-      color: black;
-      font-size: 15px;
+    h1{
+      color:rgb(196,59,79);
     }
     h2{
-      color: black;
-      font-size: 4vw;
-      line-height: 50%;
+      color:rgb(196,59,79);
     }
+    p{
+      color: black;
+      font-size:20px;
+    }
+  }
+}
+
+.banner4-bis2{
+  background-image:url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510784635/flacon_jwjlx5.jpg');
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 100vh;
+  .text-container{
+    padding-left: 53%;
+    padding-right: 3%;
+    margin: auto;
+    text-align: left;
+
+    h1{
+      color:rgb(196,59,79);
+    }
+    p{
+      color: black;
+      font-size:20px;
+    }
+  }
 }
 
 .banner5{
-  height: 100vh;
-  background-image: url('http://www.unat-paca.asso.fr/wp-content/uploads/2017/01/fonds-ecran-campagne-2015-6.jpg');
+  height:100vh;
+  background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510786588/back2_v0d451.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  .text-container{
+  text-align:center;
+  margin:auto;
+    h1{
+      padding-bottom:30%;
+      color:white;
+    }
+  }
 }
 
 .banner5-content{
@@ -321,4 +386,99 @@ body{
   position: absolute;
   right: 0;
   text-decoration: underline;
+}
+
+.banner5-bis{
+  background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510785387/desmeufs_ntndke.jpg');
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 100vh;
+  .text-container{
+    width:40%;
+    margin:auto;
+    h1{
+      color:rgb(196,59,79);
+    }
+    p{
+      color: black;
+      font-size:20px;
+    }
+  }
+}
+
+.banner6{
+  height:100vh;
+  background-image: url('https://lemag.nikonclub.fr/wp-content/uploads/2016/02/yeux_theo_gosselin_01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  .text-container{
+  text-align:center;
+  margin:auto;
+    h1{
+      padding-bottom:30%;
+      margin-right:20%;
+      color:rgb(196,59,79);
+    }
+  }
+}
+
+.banner6-bis{
+  background-image:url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510787274/plop_wgzquv.jpg');
+  background-size:contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 90vh;
+  border-bottom: 1px solid black;
+  h1{
+      color:black;
+    }
+    p{
+      color: black;
+      font-size:20px;
+    }
+  .text-container{
+    width:80%;
+    margin: auto;
+    text-align: center;
+  }
+  .text-container2{
+    padding-top:5%;
+    width:40%;
+    margin:auto;
+  }
+}
+.banner6-bis2{
+  height:100vh;
+  background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510788247/Diapositive1_itdg3f.jpg');
+  background-size: 65%;
+  background-position:center;
+  background-color:white;
+  background-repeat:no-repeat;
+  .text-container{
+  text-align:center;
+  width:80%;
+  margin:auto;
+    p{
+      color: black;
+      font-size:30px;
+    }
+  }
+}
+
+.banner6-bis3{
+  height:100vh;
+  background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510789067/cuir_vjucqu.jpg');
+  background-size:contain;
+  border-bottom: 1px solid black;
+  .text-container{
+  text-align:center;
+  padding-left:56%;
+  padding-top:33%;
+    p{
+      color: black;
+      font-size:30px;
+    }
+  }
 }
