@@ -485,7 +485,6 @@ body{
 }
 
 .banner6-bis4{
-  width: 90%;
   height:100vh;
   border-bottom: 1px solid black;
   margin:auto;
@@ -522,4 +521,47 @@ body{
     left: 10px;
     right: 10px;
     bottom: 10px;
+}
+
+.banner6-bis5{
+  border-bottom: 1px solid black;
+  text-align:center;
+  height:100vh;
+  background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510825144/recto_si01a4.jpg');
+  background-size:contain;
+  background-color:white;
+  background-repeat:no-repeat;
+  p{
+    width:80%;
+    padding-top:3%;
+    font-size:20px;
+    color:black;
+    margin:auto;
+  }
+}
+
+.banner6-bis6{
+  text-align:center;
+  height:100vh;
+  border-bottom: 1px solid black;
+  margin:auto;
+  .text-container{
+    width:80%;
+    margin:auto;
+  }
+  p{
+    color:black;
+    font-size:20px;
+  }
+  h1{
+    color:black;
+  }
+  img{
+    width:60%;
+  }
+}
+
+.wrapper{
+width:90%;
+margin:auto;
 }
