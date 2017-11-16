@@ -471,6 +471,7 @@ body{
   height:100vh;
   background-image: url('http://res.cloudinary.com/dgmpokhth/image/upload/v1510789067/cuir_vjucqu.jpg');
   background-size:contain;
+  background-repeat:no-repeat;
   border-bottom: 1px solid black;
   .text-container{
   text-align:center;
@@ -481,4 +482,44 @@ body{
       font-size:30px;
     }
   }
+}
+
+.banner6-bis4{
+  width: 90%;
+  height:100vh;
+  border-bottom: 1px solid black;
+  margin:auto;
+  p{
+    color:black;
+    font-size:20px;
+  }
+  h1{
+    color:black;
+    font-size:40px;
+  }
+  .first-container{
+    margin:auto;
+    width:90%;
+  }
+  .second-container{
+    margin:auto;
+    width:75%;
+  }
+}
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 646px;
+    height: 333px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
